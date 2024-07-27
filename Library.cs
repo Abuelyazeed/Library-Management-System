@@ -16,7 +16,14 @@ public class Library
 
     public void Remove(Book book)
     {
-        Books.Remove(book);
-        Console.WriteLine("Book removed successfully");
+        if (Books.Contains(book))
+        {
+            Books.Remove(book);
+            Console.WriteLine("Book removed successfully");
+        }
+        else
+        {
+            Console.WriteLine("The book you entered is not available");
+        }
     }
 }
