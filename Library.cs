@@ -8,7 +8,13 @@ public class Library
         return Books;
     }
 
-    public void AddBook() { }
+    public void Add(Book book)
+    {
+        Books.Add(book);
+    }
 
-    public void RemoveBook() { }
+    public void Remove(Book book)
+    {
+        Books.Remove(book);
+    }
 }
