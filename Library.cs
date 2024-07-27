@@ -11,10 +11,12 @@ public class Library
     public void Add(Book book)
     {
         Books.Add(book);
+        Console.WriteLine("Book added successfully");
     }
 
     public void Remove(Book book)
     {
         Books.Remove(book);
+        Console.WriteLine("Book removed successfully");
     }
 }

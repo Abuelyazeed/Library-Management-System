@@ -27,7 +27,7 @@
             switch (choice)
             {
                 case "a":
-                    Console.WriteLine("Enter book details");
+                    Console.WriteLine("Enter book detail to add");
                     string bookName = Console.ReadLine();
                     string bookAuthor = Console.ReadLine();
                     int publishYear = Convert.ToInt32(Console.ReadLine());
@@ -40,10 +40,23 @@
                         Year = publishYear
                     };
 
-                    library.Add(book);
-
+                    l1.AddBook(book, library);
                     break;
                 case "r":
+                    Console.WriteLine("Enter book details to remove");
+                    bookName = Console.ReadLine();
+                    bookAuthor = Console.ReadLine();
+                    publishYear = Convert.ToInt32(Console.ReadLine());
+
+                    //Object Initializer
+                    book = new Book()
+                    {
+                        Title = bookName,
+                        Author = bookAuthor,
+                        Year = publishYear
+                    };
+
+                    l1.RemoveBook(book, library);
                     break;
                 case "d":
                     break;

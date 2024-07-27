@@ -7,7 +7,13 @@ public class Librarian : User
         Name = name;
     }
 
-    public void AddBook(Book newBook) { }
+    public void AddBook(Book newBook, Library library)
+    {
+        library.Add(newBook);
+    }
 
-    public void RemoveBook(Book newBook) { }
+    public void RemoveBook(Book newBook, Library library)
+    {
+        library.Remove(newBook);
+    }
 }
