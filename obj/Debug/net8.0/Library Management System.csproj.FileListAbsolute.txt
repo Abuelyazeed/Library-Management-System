@@ -1,0 +1,14 @@
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/bin/Debug/net8.0/Library Management System
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/bin/Debug/net8.0/Library Management System.deps.json
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/bin/Debug/net8.0/Library Management System.runtimeconfig.json
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/bin/Debug/net8.0/Library Management System.dll
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/bin/Debug/net8.0/Library Management System.pdb
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/obj/Debug/net8.0/Library Management System.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/obj/Debug/net8.0/Library Management System.AssemblyInfoInputs.cache
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/obj/Debug/net8.0/Library Management System.AssemblyInfo.cs
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/obj/Debug/net8.0/Library Management System.csproj.CoreCompileInputs.cache
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/obj/Debug/net8.0/Library Management System.dll
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/obj/Debug/net8.0/refint/Library Management System.dll
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/obj/Debug/net8.0/Library Management System.pdb
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/obj/Debug/net8.0/Library Management System.genruntimeconfig.cache
+/Users/ahmedmohamed/Desktop/C#/C# OOP/Library Management System/obj/Debug/net8.0/ref/Library Management System.dll
