@@ -3,9 +3,12 @@ public class Library
     private List<Book> Books = [];
     private List<Book> BorrowedBooks = [];
 
-    public List<Book> Display()
+    public void Display()
     {
-        return Books;
+        foreach (var book in Books)
+        {
+            Console.WriteLine(book.Title);
+        }
     }
 
     public void Add(Book book)
@@ -20,6 +23,19 @@ public class Library
         {
             Books.Remove(book);
             Console.WriteLine("Book removed successfully");
+        }
+        else
+        {
+            Console.WriteLine("The book you entered is not available");
+        }
+    }
+
+    public void Borrow(Book book)
+    {
+        if (Books.Contains(book))
+        {
+            BorrowedBooks.Add(book);
+            Console.WriteLine("Book borrowed successfully");
         }
         else
         {

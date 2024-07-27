@@ -2,8 +2,8 @@ public abstract class User
 {
     public string Name { get; set; }
 
-    // public List<Book> DisplayBooks()
-    // {
-    //     return;
-    // }
+    public void DisplayBooks(Library library)
+    {
+        library.Display();
+    }
 }
