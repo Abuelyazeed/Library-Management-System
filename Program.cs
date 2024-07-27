@@ -9,6 +9,16 @@
         if (userType == "l")
         {
             //librarioan logic
+            Console.WriteLine($"Welcome librarian! Please enter your name.");
+            string libarianName = Console.ReadLine();
+
+            Librarian l1 = new Librarian(libarianName);
+
+            Console.WriteLine($"Welcome {l1.Name}");
+
+            Console.WriteLine(
+                "Please choose to Add Book (A) / Remove Book (R) / Display Books (D)"
+            );
         }
         else if (userType == "u")
         {
